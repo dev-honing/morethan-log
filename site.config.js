@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Honing",
-    image: "https://s3.ap-northeast-2.amazonaws.com/bhn1997.com/%EA%B1%B0%EB%B6%81%EC%9D%B4+%EA%B0%9C%EB%B0%9C%EC%9E%90.jpg",
+    image: "https://s3.ap-northeast-2.amazonaws.com/bhn1997.com/turtle.jpg",
     role: "풀스택 개발자",
     bio: "새로운 것을 배워 개발에 적용하는 것이 행복한 주니어 개발자",
     email: "dev.honing@gmail.com",
