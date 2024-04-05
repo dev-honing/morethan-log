@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Honing",
     image: "/avatar.svg",
     role: "풀스택 개발자",
-    bio: "새로운 것을 배워 개발에 적용하는 것이 행복한 주니어 개발자",
+    bio: "배우고, 만드는 것이 즐거운 주니어 개발자입니다.",
     email: "dev.honing@gmail.com",
     linkedin: "",
     github: "https://github.com/dev-honing",
@@ -19,8 +19,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "개발일지",
-    description: "재미 주도 개발",
+    title: "Honing의 개발일지",
+    description: "재미 주도 개발: 2023.08.08. ~",
   },
 
   // CONFIG configration (required)
