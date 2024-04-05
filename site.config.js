@@ -13,7 +13,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `기프티콘`,
+      name: `(미완)기프티콘`,
       href: "",
     },
   ],
