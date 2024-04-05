@@ -26,7 +26,7 @@ const useScheme = (): [Scheme, SetScheme] => {
   useEffect(() => {
     if (!window) return
 
-    const scheme = getCookie("scheme")
+    const scheme = getCookie("scheme") || "light"
     setScheme(scheme === "light" ? "light" : "dark")
   }, [])
 
