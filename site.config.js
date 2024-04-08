@@ -54,13 +54,15 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
-    config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
-    },
+  enable: true,
+  config: {
+    repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "dev-honing/blog-comments",
+    "issue-term": "pathname",
+    theme: "github-light",
+    crossorigin: "anonymous",
+    async: true,
   },
+},
   cusdis: {
     enable: false,
     config: {
