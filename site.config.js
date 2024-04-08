@@ -57,12 +57,12 @@ const CONFIG = {
   enable: true,
   config: {
     repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "dev-honing/blog-comments",
-    "issue-term": "pathname",
-    theme: "github-light",
-    crossorigin: "anonymous",
-    async: true,
-  },
-},
+    "issue-term": "og:title",
+    "theme": "github-light",
+    "crossOrigin": "anonymous",
+    label: "💬 Utterances",
+    },
+  },    
   cusdis: {
     enable: false,
     config: {
